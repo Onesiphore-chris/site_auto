@@ -9,16 +9,79 @@
     text-transform: capitalize;
 }
 
+section{
+    padding: 5rem 10%;
+}
 
 html::-webkit-scrollbar{
     width: 1rem;
 }
 html::-webkit-scrollbar-track{
-    background-color: ;
+    background-color:white ;
 }
 html::-webkit-scrollbar-thumb{
-    background-color:;
+    background-color:blue;
 }
+
 body{
-    
+    background: white;
+}
+
+.img img{
+    height: 100px;
+    width: 100px;
+}
+.header{
+    position:sticky;
+    top: 0; left: 0; right:0;
+    z-index: 1000;
+    background-color: blue;
+    display: flex;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .logo a{
+        font-size: 30px;
+        font-weight: 600;
+        color: rgb(19, 19, 83);
+        font-family: 'poppins' , sans-serif;
+}
+ .logo .auto{
+        color: red;     
+}
+ .logo .auto:hover{
+    background: rgb(19, 19, 83);
+}
+ .card{
+    align-items: center;
+    display: flex;
+    margin-right: 100px;
+
+}
+.card_1{
+    height: 50px;
+    width: 50px;
+    background: red ;
+    margin: 10px;
+}
+
+.card_2{
+    height: 60px;
+    width: 60px;
+    background: red ;
+    margin: 10px;
+}
+.card_3{
+    height: 70px;
+    width: 70px;
+    background: red ;
+    margin: 10px;
+}
+.card_3 a{
+    text-align: center;
+    margin-left: 10px;
+   
 }

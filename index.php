@@ -8,23 +8,31 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header class="block">
-        <div class="nav_bar">
-        <div class="card_1">
-            <img src="#" alt="">
+      <!--  section stat header -->
+    <section class="header">
+            <div class="logo">
+            <a href="#">CHRIS<span class="auto">|AUTO</span></a>
+            </div>
+            <div class="card">
+            <div class="card_1"></div>
+            <div class="card_2"></div>
+            <div class="card_3"><a href="">HOME</a></div>
         </div>
-        <div class="car">
-            <div class="car_1"></div>
-            <div class="car_2"></div>
-            <div class="car_3"><a href="">HOME</a></div>
-        </div>
-        <div class="nav">
+        
+        <div class="navBar">
             <a href="">SERVICE</a>
             <a href="">A PROPOS</a>
             <a href="">CONTACT</a>
         </div>
+       
+    </section>
+
+      <!--  section stat header -->
+      
+
+        <div class="img">
+            <img src="image/header.jpg" alt="">
         </div>
-        <div class="img"></div>
         <div class="car_4"></div>
         <div class="car_5">
             <form action="" method="post">
@@ -33,23 +41,13 @@
                 <input type="email" name="email" id=""><br>
                 <label for="">number</label>
                 <input type="numer" name="number" id="">
-                <input type="select">
                 
-
-
-                <input type="select">
-   <nom>images-type</nom>
-   <libellé>support actuel de vos images</libellé>
-   <option valeur="papier">photo papier</option>
-   <option valeur="dia">diapositives</option>
-   <option valeur="numeriques">images numériques</option>
-   <p>Si vous utilisez plusieurs formats, cochez celui qui est le plus fréquent.</p>
-</input>
+                
                 
             </form>
         </div>
         <div class="car_6"></div>
-    </header>
+    
 
 </body>
 </html>
