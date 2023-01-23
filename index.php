@@ -28,26 +28,40 @@
     </section>
 
       <!--  section stat header -->
-      
-
-        <div class="img">
+      <div class="sub_header">
+      <div class="emblem">
+            <p>
+            Pour chaque propriétaire de voiture,<br>
+            vous avez besoin d’une assurance pour protéger votre voyage.
+            </p>
+        </div>
+        <div class="image">
             <img src="image/header.jpg" alt="">
         </div>
-        <div class="car_4"></div>
-        <div class="car_5">
+        </div>
+        <div class="card2">
+        <div class="card_4">
+            <h4>CONTACT</h4>
+            <li>contact 1 </li>
+            <li>contact 1 </li>
+            <li>contact 1 </li>
+            <li>contact 1 </li>
+            <li>contact 1 </li>
+            <li>contact 1 </li>
+            <li>contact 1 </li>
+        </div>
+        <div class="card_5">
             <form action="" method="post">
                 <h1>Newletter</h1>
                 <label for="">Email</label>
                 <input type="email" name="email" id=""><br>
                 <label for="">number</label>
-                <input type="numer" name="number" id="">
-                
-                
-                
+                <input type="number" name="number" id="">
             </form>
         </div>
-        <div class="car_6"></div>
+        <div class="card_6"></div>
+        </div>
+        
     
-
 </body>
 </html>
