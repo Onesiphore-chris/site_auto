@@ -26,6 +26,7 @@
         </div>
        
     </section>
+    
 
       <!--  section stat header -->
       <div class="sub_header">
@@ -40,28 +41,55 @@
         </div>
         </div>
         <div class="card2">
-        <div class="card_4">
-            <h4>CONTACT</h4>
-            <li>contact 1 </li>
-            <li>contact 1 </li>
-            <li>contact 1 </li>
-            <li>contact 1 </li>
-            <li>contact 1 </li>
-            <li>contact 1 </li>
-            <li>contact 1 </li>
+            <div class="card_4">
+                <h4>CONTACT</h4>
+                <div class="list">
+                    <li>contact 1 </li>
+                    <li>contact 1 </li>
+                    <li>contact 1 </li>
+                    <li>contact 1 </li>
+                    <li>contact 1 </li>
+                    <li>contact 1 </li>
+                    <li>contact 1 </li>
+                    <li>contact 1 </li>
+                    <li>contact 1 </li>
+                </div>
+            </div>
+            <div class="card_5">
+            <div class="title">NEWLETTER</div>
+                <form action="" method="post">
+                    <div class="user-details">
+                        <div class="input-box">
+                        <input type="text" name="pays" placeholder="*pays" required class="input-text">
+                    </div>
+                    <div class="input-box">
+                        <input type="number" name="number" placeholder="*number" required class ="input-number">
+                    </div>
+                    <div class="input-box">
+                        <input type="email" name="email" placeholder="*email" required class="input-mail">
+                    </div>
+                    
+                    </div>
+                    <div class="button">
+                        <input type="submit" value="Envoyer">
+                    </div>
+                </form>
+            </div>
+            <div class="card_6">
+                <p>Lorem  ipsum dolor sit amet consectetur adipisicing elit. 
+                    Voluptate natus culpa officia sit repellendus eius corporis nostrum. 
+                    Eius, a quas.</p>
+                    <div class="button-2">
+                        <div class="car1">
+                        <div class="tri"></div>
+                        </div>
+                        
+                        <div class="car1">
+                        <div class="tri"></div>
+                        </div>
+                    </div>
+            </div>
         </div>
-        <div class="card_5">
-            <form action="" method="post">
-                <h1>Newletter</h1>
-                <label for="">Email</label>
-                <input type="email" name="email" id=""><br>
-                <label for="">number</label>
-                <input type="number" name="number" id="">
-            </form>
-        </div>
-        <div class="card_6"></div>
-        </div>
-        
-    
+      
 </body>
 </html>
