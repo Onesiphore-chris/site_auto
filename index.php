@@ -122,16 +122,16 @@
       <!-- Debut du footer -->
 
     <footer class="footer_1">
-        <div class="bloc"></div>
+        <div class="bloc">
         <div class="bloc_1">
             <div class="logo">
                 <a href="#">CHRIS<span class="auto">|AUTO</span></a>
                 </div>
                 <div class="para">
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Cum nam nesciunt unde odit repellendus quod labore nihil id,
-                        veritatis laudantium! Corporis doloremque optio itaque numquam alias. 
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+                        Cum nam nesciunt unde odit repellendus quod labore nihil id, <br>
+                        veritatis laudantium! Corporis doloremque optio itaque numquam alias. <br>
                         Dolore, nihil blanditiis? Voluptas.
                     </p>
                 </div>
@@ -142,9 +142,6 @@
         <div class="bloc_2">
             <h4>Service</h4>
             <div class="list">
-                    <li>contact 1 </li>
-                    <li>contact 1 </li>
-                    <li>contact 1 </li>
                     <li>contact 1 </li>
                     <li>contact 1 </li>
                     <li>contact 1 </li>
@@ -162,21 +159,10 @@
                     <li>contact 1 </li>
                     <li>contact 1 </li>
                     <li>contact 1 </li>
-                    <li>contact 1 </li>
-                    <li>contact 1 </li>
-                    <li>contact 1 </li>
                 </div>
         </div>
+        </div>
     </footer>
-
-
-
-
       <!-- Fin du footer -->
-
-
-
-
-      
 </body>
 </html>
