@@ -122,7 +122,7 @@
       <!-- Debut du footer -->
 
     <footer class="footer_1">
-        <div class="bloc">
+        <div class="bloc"></div>
         <div class="bloc_1">
             <div class="logo">
                 <a href="#">CHRIS<span class="auto">|AUTO</span></a>
@@ -166,7 +166,6 @@
                     <li>contact 1 </li>
                     <li>contact 1 </li>
                 </div>
-        </div>
         </div>
     </footer>
 
