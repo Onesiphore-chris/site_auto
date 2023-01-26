@@ -261,7 +261,6 @@ form .button input:hover{
 .info .card-info{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
-    gap:1.5rem;
     max-width:100% ;
     max-height:220px;
 }
@@ -289,7 +288,7 @@ form .button input:hover{
 .footer_1  .bloc{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
-    gap:1.5rem;
+    gap:4rem;
 }
 
 .footer_1  .bloc .bloc_1{
@@ -297,4 +296,16 @@ form .button input:hover{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+.footer_1  .bloc_2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.footer_1  .bloc_2 h4{
+    color: white;
+    font-size: 30px;
+    
 }
